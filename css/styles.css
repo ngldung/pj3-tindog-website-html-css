@@ -1,0 +1,149 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Heading section */
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Color section */
+.color-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title */
+
+#title .container-fluid {
+  padding-top: 3%;
+  text-align: left;
+}
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  top: 20px;
+  right: 30%;
+}
+
+/* Feature section */
+#features {
+  position: relative;
+}
+
+.feature-icon {
+  color: #ef8172;
+  font-size: 3em;
+  padding-bottom: 5%;
+}
+
+.feature-icon:hover {
+  color: #f44c68;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.feature {
+  font-family: 'Montserrat';
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  font-family: "Montserrat";
+  color: white;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 0 3% 5%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 3%;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+
+/* Footer section */
+#footer .container-fluid {
+  padding: 7% 15% 2%
+}
+.icon-ft {
+  padding: 0 1.5% 2%;
+  font-size: 1.5rem;
+}
+
+/* tablet & mobile size */
+@media (max-width:1012px) {
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+}
